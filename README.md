@@ -1,4 +1,4 @@
-# Case Study #1: Claim Resubmission Ingestion Pipeline - Humaein Assessment (Case Study #1)
+# Case Study #1: Claim Resubmission Ingestion Pipeline - Humaein Assessment
 
 ## 🎯 Project Overview
 

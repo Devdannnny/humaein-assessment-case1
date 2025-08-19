@@ -24,7 +24,7 @@ This project implements a robust, production-ready pipeline for ingesting, norma
 1. **Clone or download the project:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Devdannnny/humaein-assessment-case1
    cd case1
    ```
 
@@ -297,7 +297,7 @@ logging.basicConfig(
    ```json
    [
      {
-       "id": "YOUR001",
+       "id": "UNIQUE_ID",
        "member": "PAT001",
        "code": "99213",
        "error_msg": "Missing modifier",
@@ -482,10 +482,6 @@ If you encounter any issues or have questions:
 2. **Verify data format**: Ensure your input files match the expected format
 3. **Review configuration**: Check that business rules are set correctly
 4. **Enable debug mode**: Use `logging.DEBUG` for detailed troubleshooting
-
-## 📄 License
-
-This project is provided as-is for educational and demonstration purposes.
 
 ---
 

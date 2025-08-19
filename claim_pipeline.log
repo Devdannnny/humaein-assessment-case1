@@ -1,0 +1,26 @@
+2025-08-18 21:03:55,350 - __main__ - INFO - Initialized DenialReasonClassifier
+2025-08-18 21:03:55,358 - __main__ - INFO - Initialized ResubmissionEligibilityEngine
+2025-08-18 21:03:55,360 - __main__ - INFO - Initialized ClaimResubmissionPipeline
+2025-08-18 21:03:55,363 - __main__ - INFO - ============================================================
+2025-08-18 21:03:55,364 - __main__ - INFO - Starting Claim Resubmission Pipeline
+2025-08-18 21:03:55,365 - __main__ - INFO - ============================================================
+2025-08-18 21:03:55,367 - __main__ - INFO - Processing EMR Alpha source...
+2025-08-18 21:03:55,371 - __main__ - INFO - Loading EMR Alpha data from emr_alpha.csv
+2025-08-18 21:03:55,374 - __main__ - INFO - Successfully loaded 5 records from EMR Alpha
+2025-08-18 21:03:55,375 - __main__ - INFO - Normalizing EMR Alpha data
+2025-08-18 21:03:55,378 - __main__ - INFO - Normalized 5 EMR Alpha records
+2025-08-18 21:03:55,384 - __main__ - INFO - Processing EMR Beta source...
+2025-08-18 21:03:55,385 - __main__ - INFO - Loading EMR Beta data from emr_beta.json
+2025-08-18 21:03:55,391 - __main__ - INFO - Successfully loaded 4 records from EMR Beta
+2025-08-18 21:03:55,392 - __main__ - INFO - Normalizing EMR Beta data
+2025-08-18 21:03:55,392 - __main__ - INFO - Normalized 4 EMR Beta records
+2025-08-18 21:03:55,395 - __main__ - INFO - Total claims loaded: 9
+2025-08-18 21:03:55,395 - __main__ - INFO - Evaluating 9 claims for resubmission eligibility
+2025-08-18 21:03:55,397 - __main__ - INFO - Found 4 eligible claims for resubmission
+2025-08-18 21:03:55,399 - __main__ - INFO - Saving 4 candidates to resubmission_candidates.json
+2025-08-18 21:03:55,405 - __main__ - INFO - Successfully saved results to resubmission_candidates.json
+2025-08-18 21:03:55,411 - __main__ - INFO - Metrics saved to pipeline_metrics.json
+2025-08-18 21:03:55,413 - __main__ - INFO - Saved 3 rejected claims to rejected_claims.json
+2025-08-18 21:03:55,414 - __main__ - INFO - ============================================================
+2025-08-18 21:03:55,415 - __main__ - INFO - Pipeline completed successfully
+2025-08-18 21:03:55,416 - __main__ - INFO - ============================================================

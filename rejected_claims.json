@@ -1,0 +1,29 @@
+[
+  {
+    "claim_id": "A125",
+    "patient_id": null,
+    "procedure_code": "99215",
+    "denial_reason": "authorization expired",
+    "status": "denied",
+    "submitted_at": "2025-07-05T00:00:00",
+    "source_system": "alpha"
+  },
+  {
+    "claim_id": "B987",
+    "patient_id": "P010",
+    "procedure_code": "99213",
+    "denial_reason": "incorrect provider type",
+    "status": "denied",
+    "submitted_at": "2025-07-03T00:00:00",
+    "source_system": "beta"
+  },
+  {
+    "claim_id": "B990",
+    "patient_id": null,
+    "procedure_code": "99401",
+    "denial_reason": "incorrect procedure",
+    "status": "denied",
+    "submitted_at": "2025-07-01T00:00:00",
+    "source_system": "beta"
+  }
+]

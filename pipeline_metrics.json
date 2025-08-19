@@ -1,0 +1,9 @@
+{
+  "source_counts": {
+    "alpha": 5,
+    "beta": 4
+  },
+  "total_claims": 9,
+  "eligible_claims": 4,
+  "processing_errors": 0
+}
